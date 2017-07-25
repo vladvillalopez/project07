@@ -8,7 +8,7 @@ import pytest
 def test_add():
     assert fcm.math.add(5,2) == 7
     assert fcm.math.add(2,5) == 7
-    assert fcm.math.add(1,3) == 3
+    assert fcm.math.add(1,3) == 4
 #testdata =[(2, 5, 10),(1, 2, 2),(5)]
 def test_mult():
     assert fcm.math.mult(5,2) == 10
